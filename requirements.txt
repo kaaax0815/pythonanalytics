@@ -1,4 +1,2 @@
 flask
 gevent
-python-dotenv
-sqlite3
