@@ -5,4 +5,4 @@ COPY . .
 VOLUME /usr/src/app/database
 RUN pip install -r requirements.txt
 EXPOSE 8080
-CMD [ "python", "wsgi.py" ]
+CMD [ "python", "server.py" ]
